@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="utf-8" />
+  <meta content="width=device-width, initial-scale=1" name="viewport" />
+
+  <!--  CSS  -->
+  <link rel="stylesheet" href="../css/style.css" />
+  <link href="../css/queries.css" rel="stylesheet" />
+
+  <!-- AOS animation -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+
+  <!--   Normalize    -->
+  <link href="../css/normalize.css" rel="stylesheet" type="text/css" />
+
+  <!-- Grid Generator -->
+  <link rel="stylesheet" type="text/css"
+    href="../css/grid.css/1.3 grid.css.css" />
+
+  <!-- FontAwesome-->
+  <script crossorigin="anonymous"
+    src="https://kit.fontawesome.com/c58827f980.js"></script>
+
+  <!--  Google fonts  -->
+  <link
+    href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;1,300&display=swap"
+    rel="stylesheet" />
+
+  <title>Super Good</title>
+</head>
+
+<body>
+  <!------------- HEADER SECTION---------->
+  <div class="container cont-checkout">
+    <header id="header" class="checkout"  >
+      <!---- Navbar area  ----->
+      <nav class="navbar">
+        <!-- Burger menu mobile -->
+        <div id="nav-burger">
+          <i class="fas fa-bars"></i>
+        </div>
+
+        <!----- logo white ------>
+        <a href="index.html">
+          <img alt="Super Good logo" class="logo-white"
+            src="../images/super-good-Logo.png " />
+        </a>
+
+        <!----  Desktop menu  ------->
+        <ul class="menu-desktop">
+          <li><a href="./index.html">Home</a></li>
+          <li><a href="team.html">Sobre Nós</a></li>
+        </ul>
+
+        <!-----  mobile menu  -------->
+        <ul class="menu-mobile">
+          <li><a href="./index.html">Home</a></li>
+          <li><a href="team.html">Sobre Nós</a></li>
+        </ul>
+
+        <div class="clear"></div>
+      </nav>
+</div>
+
+
+<!--===========  CHECKOUT FORM  =========-->
+<div class="checkout-container">
+
+   <div class="row" style="margin: 5% 0;">
+      <h2>Checkout</h2>
+    </div>
+
+    <div class="checkout-row">
+               <div class="checkout-col-75">
+               <div class="container">
+                    <form action="#">
+
+                    <div class="checkout-row main">
+                         <div class="checkout-col-50">
+                         <h3>Endereço de Cobrança</h3>
+                         <label for="fname" aria-required=""><i class="fa fa-user ckt-icon"></i> Nome Completo</label>
+                         <input type="text" id="fname" name="firstname" placeholder="John M. Doe" required>
+                         <label for="email"><i class="fa fa-envelope ckt-icon"></i> Email</label>
+                         <input type="text" id="email" name="email" placeholder="john@example.com" required>
+                         <label for="adr"><i class="fa fa-address-card-o ckt-icon"></i> Endereço</label>
+                         <input type="text" id="adr" name="address" placeholder="Rua Antônio Carlos , 145" required>
+                         <label for="city"><i class="fa fa-institution ckt-icon"></i> Cidade</label>
+                         <input type="text" id="city" name="city" placeholder="Rio de Janeiro" required>
+
+                         <div class="checkout-row">
+                         <div class="checkout-col-50 no-padding">
+                              <label for="state">Estado</label>
+                              <input type="text" id="state" name="state" placeholder="RJ" required>
+                         </div>
+                         <div class="checkout-col-50 no-padding">
+                              <label for="zip">CEP</label>
+                              <input type="text" id="zip" name="zip" placeholder="10001045" required>
+                         </div>
+                         </div>
+                         </div>
+
+                         <div class="checkout-col-50">
+                         <h3>Forma de Pagamento</h3>
+                         <label for="fname">Cartões Aceitos</label>
+                         <div class="icon-container">
+                              <i class="fa fa-cc-visa" style="color:navy;"></i>
+                              <i class="fa fa-cc-amex" style="color:blue;"></i>
+                              <i class="fa fa-cc-mastercard" style="color:red;"></i>
+                              <i class="fa fa-cc-discover" style="color:orange;"></i>
+                         </div>
+                         <label for="cname">Nome no Cartão</label>
+                         <input type="text" id="cname" name="cardname" placeholder="John More Doe" required>
+                         <label for="ccnum">Número do Cartão</label>
+                         <input type="text" id="ccnum" name="cardnumber" placeholder="11-2222-3333-4444" required>
+                         <label for="expmonth">Data de Exp.</label>
+                         <input type="text" id="expmonth" name="expmonth" placeholder="Setembro" required>
+
+                         <div class="checkout-row">
+                         <div class="checkout-col-50 no-padding">
+                              <label for="expyear">Ano de Exp.</label>
+                              <input type="text" id="expyear" name="expyear" placeholder="2025" required>
+                         </div>
+                         <div class="checkout-col-50 no-padding">
+                              <label for="cvv">CVV</label>
+                              <input type="text" id="cvv" name="cvv" placeholder="352" required>
+                         </div>
+                         </div>
+                         </div>
+
+                    </div>
+                    <label>
+                         <input type="checkbox" checked="checked" name="sameadr" required> Endereço de entrega
+                    </label>
+                    <input type="submit" value="Ir para Checkout" class="checkout-btn" required>
+                    </form>
+               </div>
+               </div>
+
+               <div class="checkout-col-25">
+               <div class="cart-wrapper">
+                    <h3>Carrinho
+                    <span class="price" style="color:black">
+                         <i class="fa fa-shopping-cart ckt-icon"></i>
+                         <b>4</b>
+                    </span>
+                    </h3>
+                         <p>Item 1<span class="price">$15</span></p>
+                         <p>Item 2<span class="price">$5</span></p>
+                         <p>Item 3<span class="price">$8</span></p>
+                         <p>Item 4<span class="price">$2</span></p>
+                    <hr>
+                    <p>Total <span class="price" style="color:black"><b>$30</b></span></p>
+               </div>
+               </div>
+               </div>
+</div>
+
+
+ 
+    <!------------- FOOTER SECTION -------------->
+  <footer id="footer">
+    <div class="footer-wrapper">
+      <div class="row">
+        <ul class="footer-nav">
+          <li><a href="#">Contato</a></li>
+          <li><a href="#">Plano de carreira</a></li>
+          <li><a href="#">Eventos</a></li>
+          <li><a href="#">Parceiros</a></li>
+          <li><a href="#">Suporte ao consumidor</a></li>
+        </ul>
+
+        <ul class="social-media mobile">
+          <li>
+            <a href="https://pt-br.facebook.com/">
+              <i class="fab fa-facebook footer-icon"></i>
+            </a>
+          </li>
+          <li>
+            <a href="https://twitter.com/login?lang=pt">
+              <i class="fab fa-twitter footer-icon"></i>
+            </a>
+          </li>
+          <li>
+            <a href="https://www.instagram.com/?hl=pt-br">
+              <i class="fab fa-instagram footer-icon"></i>
+            </a>
+          </li>
+          <li>
+            <a href="https://www.youtube.com/">
+              <i class="fab fa-youtube footer-icon"></i>
+            </a>
+          </li>
+          <li>
+            <a href="https://www.pinterest.com/">
+              <i class="fab fa-pinterest footer-icon"></i>
+            </a>
+          </li>
+        </ul>
+
+        <div class="copyright">
+          <p>&copy; 2020 SuperGood | All rights Reserved</p>
+        </div>
+      </div>
+
+      <div class="row">
+        <ul class="social-media">
+          <li>
+            <a href="https://pt-br.facebook.com/">
+              <i class="fab fa-facebook footer-icon"></i>
+            </a>
+          </li>
+          <li>
+            <a href="https://twitter.com/login?lang=pt">
+              <i class="fab fa-twitter footer-icon"></i>
+            </a>
+          </li>
+          <li>
+            <a href="https://www.instagram.com/?hl=pt-br">
+              <i class="fab fa-instagram footer-icon"></i>
+            </a>
+          </li>
+          <li>
+            <a href="https://www.youtube.com/">
+              <i class="fab fa-youtube footer-icon"></i>
+            </a>
+          </li>
+          <li>
+            <a href="https://www.pinterest.com/">
+              <i class="fab fa-pinterest footer-icon"></i>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </footer>
+
+  <!------------- jQuery   link ------- -->
+  <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+
+  <!------------------- AOS Animation ------------------>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+  <!-------------------- Waypoints ----------------->
+  <script src="../js/jquery.waypoints.min.js"></script>
+
+  <!-------------- Javascript ------------>
+  <script src="../js/script.js"></script>
+
+  <script>
+    AOS.init()
+  </script>
+</body>
+
+</html>
