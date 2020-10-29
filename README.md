@@ -5,4 +5,4 @@ Esse é um site representando um restaurante franquias em alguns países e ofere
 É um pojeto simples de 3 páginas, sendo elas a Homepage, sobre nós e checkout. Não possui backend ainda.
 As tecnologias usadas foram HTML, CSS(flexbox layout) e jQuery.
 
-confira o site online aqui ====>  https://gpereira305.github.io/supergood-restaurant
+confira o site online aqui ====>  https://supergood-restaurant.netlify.app
