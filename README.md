@@ -23,4 +23,3 @@ Faça um clone desse repo e abra o arquivo HTML no navegador ou caso queira apen
 
 ```
 
-## Demo 
