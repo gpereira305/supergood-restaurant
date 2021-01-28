@@ -21,5 +21,7 @@ Faça um clone desse repo e abra o arquivo HTML no navegador ou caso queira apen
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
 
-```
+
+## Demo
+![restaurante](https://user-images.githubusercontent.com/66249777/106129811-5f9eab00-613f-11eb-81af-1575497a7f01.gif)
 
